@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+.container{
+    max-width: 1400px;
+    min-height: 730px;
+    margin: auto;
+   
+}
+.menu{
+    max-width: 1440px;
+    min-height: 100px;
+  
+    
+    
+}
+.header__a{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    color: #211F54;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+}
+.home{
+    width: 678px;
+    height: 364px;
+    margin-top: 230px;
+
+    
+    
+}
+.home__h1{
+    font-family: Roboto;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 73.98px;
+    color: #211F54;
+    padding-top: 22px;
+    
+}
+.home__p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    color: #6E7191;
+    padding-top: 22px;
+    
+}
+.home__img__changyutkich{
+    width: 520px;
+    height: 534px;
+    margin-left: 700px;
+    margin-top: -600px;
+    
+    
+}
+@media screen and (max-width:800px) {
+    .home__img__changyutkich{
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+    
+}
+@media screen and (max-wihdth:800px) {
+    ul{
+        grid-template-columns: auto auto;
+        margin-top: 60px;
+    }
+    
+}
+.servise{
+    width: 1268px;
+    height: 718px;
+    top: 1092px;
+    background-color: aqua;
+    margin-top: 240px;
+}
+.service__h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: center;
+    
+    
+}
+.our__p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: center;
+    padding-top: 21px;
+    
+}
+.port{
+    width: 1268px;
+    height: 718px;
+    margin-top: 100px;
+    margin-left: 86px;
+    margin-top: 400px;
+    
+    
+   
+    
+}
+
+.port_h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: center;
+    margin-top: 16px;
+    
+    
+}
+.port_p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: center;
+   
+    
+}
+.spankek{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.pretter_h2{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    color: #211F54;
+    
+}
+.pretter_p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    color: #211F54;
+    
+}
+.button_22{
+    margin-top: 56px;
+}
+@media screen and (max-width:700px) {
+    .spankek{
+    grid-template-columns: auto auto;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .spankek{
+    grid-template-columns: auto;
+    }
+    
+}
+.comparison{
+    width: 1268px;
+    height: 904px;
+    margin-top: 291px;
+    margin-left: 86px;
+    
+}
+.cras_h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: center;
+    color: #211F54;
+}
+.cras_p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: center;
+    color: #6E7191;
+    
+}
+.cras_img_1{
+    width: 750px;
+    height: 72px;
+    margin-top: 32px;
+    margin-left: 259px;
+    
+    
+}
+.cras_img_2{
+    max-width: 1012px;
+    min-height: 570px;
+    margin-top: 40px;
+    margin-left: 128px;
+    
+    
+}
+.take{
+    max-width: 1268px;
+    min-height: 672px;
+    margin-top: 450px;
+    margin-left: 86px;
+    padding: 0px 24px 0px 24px;
+    
+    
+    
+}
+.office{
+    width: 1220px;
+    height: 494px;
+    margin-top: 178px;
+    
+    
+    
+}
+.hause_h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    color: #211F54;
+    
+}
+.hause_button{
+    width: 214px;
+    height: 73px;
+    margin-top: -50px;
+    margin-left: 800px;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #211F54;
+    
+    
+    
+}
+.office{
+    display: flex;
+}
+.clean{
+    width: 384px;
+    height: 350px;
+    
+    text-align: center;
+}
+.clean_h2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.01px;
+    text-align: center;
+    color: #211F54;
+   
+    
+}
+.clean_p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    color: #6E7191;
+}
+
+.covid{
+    max-width: 1146px;
+    min-height: 676px;
+    background-color: #211F54;
+    margin: auto;
+    margin-top: 240px;
+
+    
+}
+.virus{
+    width: 556px;
+    height: 401px;
+    margin-top: -480px;
+    margin-left: 550px;
+    
+    
+    
+    
+}
+.virus_p1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.600000023841858px;
+    color: #FFFFFF;
+    
+}
+.virus_h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    color: #FFFFFF;
+    
+}
+.virus_p2{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    color: #FFFFFF;
+    
+}
+.bethorms{
+    max-width: 1220px;
+    min-height: 480px;
+    margin: auto;
+    padding: 0px 0.02px 0px 0px;
+   
+
+
+}
+.kitchens{
+    width: 500px;
+    height: 560px;
+    margin-top: -600px;
+    margin-left: 719.98px;
+   
+    
+    
+    
+}
+.kitchen_h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    
+    
+}
+.kitchen_p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    
+    
+}
+.ketchen_button{
+    width: 217px;
+    height: 72px;
+    top: 488px;
+    left: 0.02px;
+    background-color: #0075FF;
+    border-radius: 15px;
+    
+    
+}
+@media screen and (max-width:800px) {
+    .office{
+        grid-template-columns: auto;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .clean{
+        grid-template-columns: auto auto;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .virus{
+        grid-template-columns: auto;
+    }
+    
+}
